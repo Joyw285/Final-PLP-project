@@ -41,7 +41,7 @@ The app is built using the following technologies:
 
 ### Installation Instructions
 1. Clone the repository:
-   git clone https://github.com/yourusername/nourishED-minds.git
+   git clone https://github.com/Joyw285/Final-PLP-project.git
 2. Navigate to the project folder:
 3. Open the project:You can open the index.html file in any modern browser to view the app.
 4. Run the app:

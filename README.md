@@ -26,16 +26,24 @@ The app is built using the following technologies:
 
 - **Frontend**: 
   - HTML
-  - CSS
+  -Tailwind CSS
   - JavaScript
   - PWA (Progressive Web App) support
   
 - **Backend**:
-  - **Flask** (Python) – For backend API services and logic (to be implemented in future versions)
-  
+  - Node.js
+  - Express.js
+  - MongoDB (with Mongoose)
+  - JWT for authentication
+
+- **Other Tools**:
+  - GitHub for version control
+  - MongoDB Atlas for remote database (or local MongoDB)
+  - Netlify/Vercel for frontend hosting
+  - Render/Glitch/Heroku for backend deployment
+    
 - **Storage**:
   - **LocalStorage/JSON** (for offline capabilities)
-  - **SQLite** (for future use with backend integration)
 
 ---
 
@@ -45,11 +53,6 @@ The app is built using the following technologies:
 2. Navigate to the project folder:
 3. Open the project:You can open the index.html file in any modern browser to view the app.
 4. Run the app:
-5. Backend Setup:
-When Flask is implemented for the backend, install the necessary Python dependencies using bash:
-pip install -r requirements.txt
-6. Then run the Flask server:
-python app.py
 
 ### Usage
 Add Student:

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>nourishED minds</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>nourishED minds</h1>
+    <p>Simple meal tracking for rural schools</p>
+  </header>
+
+  <main>
+    <section class="student-section">
+      <h2>Student Meal Log</h2>
+      <button id="add-student-btn">➕ Add Student</button>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Meal Given</th>
+          </tr>
+        </thead>
+        <tbody id="student-table-body">
+          <!-- Rows will be added dynamically -->
+        </tbody>
+      </table>
+    </section>
+
+    <section id="add-student-form" class="hidden">
+      <h3>New Student</h3>
+      <form id="student-form">
+        <input type="text" id="student-name" placeholder="Student Name" required />
+        <button type="submit">Add</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 nourishED minds</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
